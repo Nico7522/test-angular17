@@ -2,6 +2,14 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "book-feature": [
+        "./dist/book-feature"
+      ],
+      "toolsroutes": [
+        "./dist/toolsroutes"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
